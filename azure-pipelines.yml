@@ -11,7 +11,7 @@ stages:
       inputs:
         connectionType: 'Kubernetes Service Connection'
         kubernetesServiceEndpoint: 'k8sconnection'
-        azureResourceGroup: 'dev-env'
+        azureResourceGroup: 'env-dev'
         kubernetesCluster: 'dev-cluster'
         namespace: 'three-tier'
         command: 'apply'
