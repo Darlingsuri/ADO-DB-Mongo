@@ -15,5 +15,5 @@ stages:
         kubernetesCluster: 'dev-cluster'
         namespace: 'three-tier'
         command: 'apply'
-        arguments: '-f $(Build.SourcesDirectory) DB/database.yml'
+        arguments: '-f DB/database.yml'
       displayName: 'Deploy MongoDB to Kubernetes'
